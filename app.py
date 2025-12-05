@@ -4,10 +4,10 @@ from textblob import TextBlob
 
 st.title("Sentiment Analysis App")
 
-st.write("Enter a sentence to analyze its sentiment.")
+st.write(" 🧠Enter a sentence to analyze its sentiment.")
 
 
-user_input = st.text_input("Enter your sentenc:")
+user_input = st.text_input("Enter your sentence:")
 
 if user_input:
     blob = TextBlob(user_input)
@@ -23,5 +23,6 @@ if user_input:
         st.write("Sentiment Neutral :I")
     
     st.write(f"Sentiment Score : {sentiment}")
+
 
 
