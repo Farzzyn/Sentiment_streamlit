@@ -15,14 +15,15 @@ if user_input:
 
 
     if sentiment > 0:
-        st.write("Sentiment Positive:) ")
+        st.write("Sentiment Positive😊 ")
     
     elif sentiment < 0:
-        st.write("Sentiment Negastive :(")
+        st.write("Sentiment Negastive 🤥")
     else:
-        st.write("Sentiment Neutral :I")
+        st.write("Sentiment Neutral 🫤")
     
     st.write(f"Sentiment Score : {sentiment}")
+
 
 
 
